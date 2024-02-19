@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5;
+}
+
+body {
+  background-color: #e4e4e4;
+}
+
+/* Menú */
+.navbar-brand {
+  width: 5rem;
+}
+.logoNav {
+  width: 100%;
+}
+
+.navbar-toggler {
+  font-size: 1rem;
+}
+
+/* Imagen principal */
+
+.container_imagen-dibujando {
+  height: 90vh;
+}
+
+.container_imagen-dibujando img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
